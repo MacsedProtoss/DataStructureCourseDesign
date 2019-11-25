@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4BE72C30238B9EAC0021D053 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BE72C2F238B9EAC0021D053 /* main.c */; };
+		4BE72C38238B9F080021D053 /* 最大子序列.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BE72C37238B9F080021D053 /* 最大子序列.c */; };
+		4BE72C3A238BBF530021D053 /* 主元.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BE72C39238BBF530021D053 /* 主元.c */; };
+		4BE72C3C238BC3A80021D053 /* 链表约瑟夫环.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BE72C3B238BC3A80021D053 /* 链表约瑟夫环.c */; };
+		4BE72C3E238BEA930021D053 /* 基数排序.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BE72C3D238BEA930021D053 /* 基数排序.c */; };
+		4BE72C40238BEE1A0021D053 /* AVL树的插入.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BE72C3F238BEE1A0021D053 /* AVL树的插入.c */; };
+		4BE72C42238BF4340021D053 /* 建堆与堆排序.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BE72C41238BF4340021D053 /* 建堆与堆排序.c */; };
+		4BE72C44238BF47D0021D053 /* 快速排序.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BE72C43238BF47D0021D053 /* 快速排序.c */; };
+		4BE72C46238BF48B0021D053 /* 最小生成树.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BE72C45238BF48B0021D053 /* 最小生成树.c */; };
+		4BE72C48238BF49B0021D053 /* 有向图最短路径的Dijsktra算法.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BE72C47238BF49B0021D053 /* 有向图最短路径的Dijsktra算法.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,15 @@
 /* Begin PBXFileReference section */
 		4BE72C2C238B9EAC0021D053 /* DataStructureCourseDesign */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructureCourseDesign; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE72C2F238B9EAC0021D053 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		4BE72C37238B9F080021D053 /* 最大子序列.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "最大子序列.c"; sourceTree = "<group>"; };
+		4BE72C39238BBF530021D053 /* 主元.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "主元.c"; sourceTree = "<group>"; };
+		4BE72C3B238BC3A80021D053 /* 链表约瑟夫环.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "链表约瑟夫环.c"; sourceTree = "<group>"; };
+		4BE72C3D238BEA930021D053 /* 基数排序.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "基数排序.c"; sourceTree = "<group>"; };
+		4BE72C3F238BEE1A0021D053 /* AVL树的插入.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "AVL树的插入.c"; sourceTree = "<group>"; };
+		4BE72C41238BF4340021D053 /* 建堆与堆排序.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "建堆与堆排序.c"; sourceTree = "<group>"; };
+		4BE72C43238BF47D0021D053 /* 快速排序.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "快速排序.c"; sourceTree = "<group>"; };
+		4BE72C45238BF48B0021D053 /* 最小生成树.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "最小生成树.c"; sourceTree = "<group>"; };
+		4BE72C47238BF49B0021D053 /* 有向图最短路径的Dijsktra算法.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "有向图最短路径的Dijsktra算法.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,15 @@
 			isa = PBXGroup;
 			children = (
 				4BE72C2F238B9EAC0021D053 /* main.c */,
+				4BE72C39238BBF530021D053 /* 主元.c */,
+				4BE72C37238B9F080021D053 /* 最大子序列.c */,
+				4BE72C3B238BC3A80021D053 /* 链表约瑟夫环.c */,
+				4BE72C3D238BEA930021D053 /* 基数排序.c */,
+				4BE72C41238BF4340021D053 /* 建堆与堆排序.c */,
+				4BE72C3F238BEE1A0021D053 /* AVL树的插入.c */,
+				4BE72C43238BF47D0021D053 /* 快速排序.c */,
+				4BE72C45238BF48B0021D053 /* 最小生成树.c */,
+				4BE72C47238BF49B0021D053 /* 有向图最短路径的Dijsktra算法.c */,
 			);
 			path = DataStructureCourseDesign;
 			sourceTree = "<group>";
@@ -119,7 +146,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BE72C3E238BEA930021D053 /* 基数排序.c in Sources */,
+				4BE72C3A238BBF530021D053 /* 主元.c in Sources */,
+				4BE72C44238BF47D0021D053 /* 快速排序.c in Sources */,
 				4BE72C30238B9EAC0021D053 /* main.c in Sources */,
+				4BE72C40238BEE1A0021D053 /* AVL树的插入.c in Sources */,
+				4BE72C42238BF4340021D053 /* 建堆与堆排序.c in Sources */,
+				4BE72C46238BF48B0021D053 /* 最小生成树.c in Sources */,
+				4BE72C48238BF49B0021D053 /* 有向图最短路径的Dijsktra算法.c in Sources */,
+				4BE72C3C238BC3A80021D053 /* 链表约瑟夫环.c in Sources */,
+				4BE72C38238B9F080021D053 /* 最大子序列.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
